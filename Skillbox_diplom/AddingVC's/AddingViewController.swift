@@ -13,7 +13,7 @@ class AddingViewController: UIViewController, UITextFieldDelegate {
     public var option: String = ""
     public var addUpdateCategories: (() -> Void)?
     public var addUpdateIncomes: (() -> Void)?
-  
+    
     @IBOutlet var titleTF: UITextField!
     @IBOutlet var saveButton: UIButton!
     
@@ -30,11 +30,10 @@ class AddingViewController: UIViewController, UITextFieldDelegate {
                     try self.context.save()
                 } catch {}
             }
-            
             addUpdateCategories?()
             self.dismiss(animated: true)
-            
-        } else if option == "amount" {
+        }
+        else if option == "amount" {
             if let text = titleTF.text, !text.isEmpty {
                 let newAmount = Income(context: self.context)
                 newAmount.amount = Double(text.replacingOccurrences(of: ",", with: ".")) ?? 0
@@ -43,24 +42,20 @@ class AddingViewController: UIViewController, UITextFieldDelegate {
                     try self.context.save()
                 } catch {}
             }
-            
             addUpdateIncomes?()
             self.dismiss(animated: true)
-            
-        } else {
-        return
-      }
+        }
+        else { return }
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.view.endEditing(true)
         return true
     }
     
-      override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         titleTF.becomeFirstResponder()
         titleTF.delegate = self
-          saveButton.setUp()
+        saveButton.setUp()
     }
-
 }

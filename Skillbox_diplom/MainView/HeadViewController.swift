@@ -30,8 +30,8 @@ class HeadViewController: UIViewController, UITableViewDelegate {
     }
     
     @IBAction func addCategory(_ sender: Any) {
-      guard  let vc = storyboard?.instantiateViewController(withIdentifier: "AddingVC") as? AddingViewController
-         else { return }
+        guard  let vc = storyboard?.instantiateViewController(withIdentifier: "AddingVC") as? AddingViewController
+        else { return }
         vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true)
         vc.saveButton.titleLabel?.text = "Дадаць катэгорыю"
@@ -48,9 +48,9 @@ class HeadViewController: UIViewController, UITableViewDelegate {
     @IBOutlet var categoriesTableView: UITableView!
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
- 
+    
     @IBAction func openGraph(_ sender: Any) {
-    guard let vc = storyboard?.instantiateViewController(withIdentifier: "DoubleGraphVC") as? DoubleGraphViewController
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "DoubleGraphVC") as? DoubleGraphViewController
         else { return }
         vc.expences = expences
         vc.incomes = incomes
@@ -67,7 +67,7 @@ class HeadViewController: UIViewController, UITableViewDelegate {
         updateExpences()
         navigationItem.backButtonTitle = "Назад"
         setupButtons()
-      
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         updateCurrentBallance()
@@ -76,9 +76,9 @@ class HeadViewController: UIViewController, UITableViewDelegate {
     
     func updateCategories() {
         self.categories = DataBaseService.shared.categories()
-            DispatchQueue.main.async {
-                self.categoriesTableView.reloadData()
-            }
+        DispatchQueue.main.async {
+            self.categoriesTableView.reloadData()
+        }
     }
     
     func updateIncomes() {
@@ -89,18 +89,17 @@ class HeadViewController: UIViewController, UITableViewDelegate {
         self.expences = DataBaseService.shared.allExpences()
     }
     
-   public func updateCurrentBallance() {
+    public func updateCurrentBallance() {
         self.currentBallance = DataBaseService.shared.currentAmount()
         DispatchQueue.main.async {
             self.amountLabel.text = "Бягучы баланс:   \(self.currentBallance.asMoney)"
         }
     }
-    
 }
 
 extension HeadViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       return categories.count
+        return categories.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

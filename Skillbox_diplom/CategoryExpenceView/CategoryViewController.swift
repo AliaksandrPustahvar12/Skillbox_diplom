@@ -13,7 +13,7 @@ class CategoryViewController: UIViewController, UITableViewDelegate {
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     @IBOutlet var graphButton: UIButton!
-    
+    @IBOutlet var expencesTableView: UITableView!
     @IBOutlet var addExpenceButton: UIButton!
     
     @IBAction func addNewExpence(_ sender: Any) {
@@ -22,11 +22,11 @@ class CategoryViewController: UIViewController, UITableViewDelegate {
         vc.category = category
         vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true)
-        
         vc.addUpdateExpences = {[weak self] in
             self?.updateExpences()
         }
     }
+    
     @IBAction func openGraph(_ sender: Any) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "CategoryGraphVC") as? CategoryGraphViewController
         else { return }
@@ -34,8 +34,6 @@ class CategoryViewController: UIViewController, UITableViewDelegate {
         navigationController?.pushViewController(vc, animated: true)
         vc.title = category.categoryName
     }
-    
-    @IBOutlet var expencesTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +51,7 @@ class CategoryViewController: UIViewController, UITableViewDelegate {
         }
     }
 }
+
 extension CategoryViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return expences.count
@@ -65,7 +64,7 @@ extension CategoryViewController: UITableViewDataSource {
             return cell
         }
         let expence = expences[indexPath.row]
-    
+        
         cell.titleLabel.text = expence.title
         cell.dateLabel.text = expence.date?.formatted(date: .abbreviated, time: .omitted)
         cell.amountLabel.text = expence.amount.asMoney

@@ -8,15 +8,12 @@
 import UIKit
 
 class ExpencesTableViewCell: UITableViewCell {
-
-
+    
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var dateLabel: UILabel!
     @IBOutlet var amountLabel: UILabel!
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
     }
-
 }

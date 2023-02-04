@@ -17,7 +17,6 @@ class DoubleGraphViewController: UIViewController, AxisValueFormatter {
     var incomesForChart: [(date: Date, amount: Double)] = []
     var expencesForChart: [(date: Date, amount: Double)] = []
     @IBOutlet var graph: LineChartView!
-    
     @IBOutlet var periodSegments: UISegmentedControl!
     
     override func viewDidLoad() {
@@ -51,7 +50,6 @@ class DoubleGraphViewController: UIViewController, AxisValueFormatter {
         let expenceChartDataSet = LineChartDataSet(entries: expenceChartDataEntrys, label: "Расход")
         expenceChartDataSet.colors = [NSUIColor.systemRed]
         expenceChartDataSet.lineWidth = 2
-        
         
         let chartData = LineChartData(dataSets: [incomeChartDataSet,expenceChartDataSet])
         graph.data = chartData
@@ -87,11 +85,11 @@ class DoubleGraphViewController: UIViewController, AxisValueFormatter {
         for element in expences {
             let tuple = (date: element.date?.startDay ?? .now, amount: element.amount)
             if let index = expencesForChart.firstIndex(where: {$0.date == tuple.date}) {
-                        expencesForChart[index].amount += tuple.amount
-                    } else {
-                        expencesForChart.append(tuple)
-                    }
-          }
+                expencesForChart[index].amount += tuple.amount
+            } else {
+                expencesForChart.append(tuple)
+            }
+        }
     }
     
     @objc func changeGraph(_ sender: UISegmentedControl){

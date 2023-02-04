@@ -36,7 +36,7 @@ class DataBaseService {
             print("Error fetching expences")
         }
         return fetchedExpences
-        }
+    }
     
     func incomes() -> [Income] {
         let request: NSFetchRequest<Income> = Income.fetchRequest()
@@ -63,7 +63,7 @@ class DataBaseService {
     }
     
     func currentAmount() -> Double {
-        let expencesAmount = allExpences().reduce(0) { $0 + $1.amount} 
+        let expencesAmount = allExpences().reduce(0) { $0 + $1.amount}
         let incomesAmount = incomes().reduce(0) { $0 + $1.amount }
         return incomesAmount - expencesAmount
     }

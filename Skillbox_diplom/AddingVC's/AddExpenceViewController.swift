@@ -14,13 +14,11 @@ class AddExpenceViewController: UIViewController, UITextFieldDelegate {
     var category = Category()
     @IBOutlet var titleTF: UITextField!
     @IBOutlet var amountTF: UITextField!
+    @IBOutlet var saveButton: UIButton!
     
     @IBAction func backButton(_ sender: Any) {
         self.dismiss(animated: true)
     }
-    
-    @IBOutlet var saveButton: UIButton!
-    
     
     @IBAction func addNewExpence(_ sender: Any) {
         if let text = titleTF.text, !text.isEmpty {
@@ -46,11 +44,10 @@ class AddExpenceViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      //  titleTF.becomeFirstResponder()
+        titleTF.becomeFirstResponder()
         titleTF.delegate = self
         titleTF.attributedPlaceholder = NSAttributedString(string: "Увядзіце назву", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGreen ?? .systemGray3])
         amountTF.attributedPlaceholder = NSAttributedString(string: "Увядзіце суму", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGreen ?? .systemGray3])
         saveButton.setUp()
     }
-  
 }

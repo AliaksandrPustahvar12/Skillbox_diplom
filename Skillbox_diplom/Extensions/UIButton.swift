@@ -17,5 +17,5 @@ extension UIButton {
         self.layer.shadowRadius = 4
         self.layer.shadowOffset = CGSize(width: 2.5, height: 2.5)
         self.layer.shadowColor = UIColor.systemGreen.cgColor
-        }
     }
+}
