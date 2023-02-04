@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D424BC70297BD69E00F98599 /* AddExpenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424BC6F297BD69E00F98599 /* AddExpenceViewController.swift */; };
+		D424BC72297DB5C100F98599 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424BC71297DB5C100F98599 /* Double.swift */; };
+		D42B0104297929170050AB23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B0103297929170050AB23 /* AppDelegate.swift */; };
+		D42B0106297929170050AB23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B0105297929170050AB23 /* SceneDelegate.swift */; };
+		D42B0108297929170050AB23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B0107297929170050AB23 /* ViewController.swift */; };
+		D42B010B297929170050AB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42B0109297929170050AB23 /* Main.storyboard */; };
+		D42B010E297929170050AB23 /* Skillbox_diplom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D42B010C297929170050AB23 /* Skillbox_diplom.xcdatamodeld */; };
+		D42B0110297929180050AB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42B010F297929180050AB23 /* Assets.xcassets */; };
+		D42B0113297929180050AB23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42B0111297929180050AB23 /* LaunchScreen.storyboard */; };
+		D42B011B29795F7F0050AB23 /* HeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B011A29795F7F0050AB23 /* HeadViewController.swift */; };
+		D42B011D297A84F50050AB23 /* DataBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B011C297A84F50050AB23 /* DataBaseService.swift */; };
+		D42B011F297A90EE0050AB23 /* AddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B011E297A90EE0050AB23 /* AddingViewController.swift */; };
+		D42B0121297AA08D0050AB23 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B0120297AA08D0050AB23 /* CategoryTableViewCell.swift */; };
+		D43168812982815B00F94B45 /* DoubleGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43168802982815B00F94B45 /* DoubleGraphViewController.swift */; };
+		D43168922982E62200F94B45 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = D43168912982E62200F94B45 /* Charts */; };
+		D4ED30AC298BD122000F7BA4 /* CategoryGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED30AB298BD122000F7BA4 /* CategoryGraphViewController.swift */; };
+		D4ED30AF298EA8B0000F7BA4 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED30AE298EA8B0000F7BA4 /* Date.swift */; };
+		D4ED30B1298EAB70000F7BA4 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED30B0298EAB70000F7BA4 /* UIColor.swift */; };
+		D4ED30B3298EABA3000F7BA4 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED30B2298EABA3000F7BA4 /* UIButton.swift */; };
+		D4ED30B5298EAC08000F7BA4 /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED30B4298EAC08000F7BA4 /* UISegmentedControl.swift */; };
+		D4F3E6C5297B183F00BE87CE /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F3E6C4297B183F00BE87CE /* CategoryViewController.swift */; };
+		D4F3E6C9297B33E800BE87CE /* ExpencesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F3E6C8297B33E800BE87CE /* ExpencesTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D424BC6F297BD69E00F98599 /* AddExpenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenceViewController.swift; sourceTree = "<group>"; };
+		D424BC71297DB5C100F98599 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		D42B0100297929170050AB23 /* Skillbox_diplom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skillbox_diplom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42B0103297929170050AB23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D42B0105297929170050AB23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D42B0107297929170050AB23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D42B010A297929170050AB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D42B010D297929170050AB23 /* Skillbox_diplom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skillbox_diplom.xcdatamodel; sourceTree = "<group>"; };
+		D42B010F297929180050AB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D42B0112297929180050AB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D42B0114297929180050AB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42B011A29795F7F0050AB23 /* HeadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadViewController.swift; sourceTree = "<group>"; };
+		D42B011C297A84F50050AB23 /* DataBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseService.swift; sourceTree = "<group>"; };
+		D42B011E297A90EE0050AB23 /* AddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingViewController.swift; sourceTree = "<group>"; };
+		D42B0120297AA08D0050AB23 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		D43168802982815B00F94B45 /* DoubleGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleGraphViewController.swift; sourceTree = "<group>"; };
+		D4ED30AB298BD122000F7BA4 /* CategoryGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGraphViewController.swift; sourceTree = "<group>"; };
+		D4ED30AE298EA8B0000F7BA4 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		D4ED30B0298EAB70000F7BA4 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D4ED30B2298EABA3000F7BA4 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		D4ED30B4298EAC08000F7BA4 /* UISegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControl.swift; sourceTree = "<group>"; };
+		D4F3E6C4297B183F00BE87CE /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		D4F3E6C8297B33E800BE87CE /* ExpencesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpencesTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42B00FD297929170050AB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43168922982E62200F94B45 /* Charts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D42B00F7297929170050AB23 = {
+			isa = PBXGroup;
+			children = (
+				D42B0102297929170050AB23 /* Skillbox_diplom */,
+				D42B0101297929170050AB23 /* Products */,
+				D431688229828E1600F94B45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D42B0101297929170050AB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42B0100297929170050AB23 /* Skillbox_diplom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42B0102297929170050AB23 /* Skillbox_diplom */ = {
+			isa = PBXGroup;
+			children = (
+				D42B0103297929170050AB23 /* AppDelegate.swift */,
+				D42B0105297929170050AB23 /* SceneDelegate.swift */,
+				D42B0107297929170050AB23 /* ViewController.swift */,
+				D42B0109297929170050AB23 /* Main.storyboard */,
+				D4ED30B9298EAE5A000F7BA4 /* MainView */,
+				D4ED30B7298EADBE000F7BA4 /* CategoryExpenceView */,
+				D4ED30BA298EAE7C000F7BA4 /* Service */,
+				D4ED30B6298EACB3000F7BA4 /* Graphs */,
+				D4ED30AD298EA86C000F7BA4 /* Extensions */,
+				D4ED30B8298EADFF000F7BA4 /* AddingVC's */,
+				D42B010F297929180050AB23 /* Assets.xcassets */,
+				D42B0111297929180050AB23 /* LaunchScreen.storyboard */,
+				D42B0114297929180050AB23 /* Info.plist */,
+				D42B010C297929170050AB23 /* Skillbox_diplom.xcdatamodeld */,
+			);
+			path = Skillbox_diplom;
+			sourceTree = "<group>";
+		};
+		D431688229828E1600F94B45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4ED30AD298EA86C000F7BA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D424BC71297DB5C100F98599 /* Double.swift */,
+				D4ED30B4298EAC08000F7BA4 /* UISegmentedControl.swift */,
+				D4ED30B2298EABA3000F7BA4 /* UIButton.swift */,
+				D4ED30AE298EA8B0000F7BA4 /* Date.swift */,
+				D4ED30B0298EAB70000F7BA4 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D4ED30B6298EACB3000F7BA4 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				D43168802982815B00F94B45 /* DoubleGraphViewController.swift */,
+				D4ED30AB298BD122000F7BA4 /* CategoryGraphViewController.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		D4ED30B7298EADBE000F7BA4 /* CategoryExpenceView */ = {
+			isa = PBXGroup;
+			children = (
+				D4F3E6C4297B183F00BE87CE /* CategoryViewController.swift */,
+				D4F3E6C8297B33E800BE87CE /* ExpencesTableViewCell.swift */,
+			);
+			path = CategoryExpenceView;
+			sourceTree = "<group>";
+		};
+		D4ED30B8298EADFF000F7BA4 /* AddingVC's */ = {
+			isa = PBXGroup;
+			children = (
+				D424BC6F297BD69E00F98599 /* AddExpenceViewController.swift */,
+				D42B011E297A90EE0050AB23 /* AddingViewController.swift */,
+			);
+			path = "AddingVC's";
+			sourceTree = "<group>";
+		};
+		D4ED30B9298EAE5A000F7BA4 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				D42B011A29795F7F0050AB23 /* HeadViewController.swift */,
+				D42B0120297AA08D0050AB23 /* CategoryTableViewCell.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		D4ED30BA298EAE7C000F7BA4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D42B011C297A84F50050AB23 /* DataBaseService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D42B00FF297929170050AB23 /* Skillbox_diplom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42B0117297929180050AB23 /* Build configuration list for PBXNativeTarget "Skillbox_diplom" */;
+			buildPhases = (
+				D42B00FC297929170050AB23 /* Sources */,
+				D42B00FD297929170050AB23 /* Frameworks */,
+				D42B00FE297929170050AB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skillbox_diplom;
+			packageProductDependencies = (
+				D43168912982E62200F94B45 /* Charts */,
+			);
+			productName = Skillbox_diplom;
+			productReference = D42B0100297929170050AB23 /* Skillbox_diplom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42B00F8297929170050AB23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D42B00FF297929170050AB23 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D42B00FB297929170050AB23 /* Build configuration list for PBXProject "Skillbox_diplom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D42B00F7297929170050AB23;
+			packageReferences = (
+				D43168902982E62200F94B45 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = D42B0101297929170050AB23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42B00FF297929170050AB23 /* Skillbox_diplom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D42B00FE297929170050AB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42B0113297929180050AB23 /* LaunchScreen.storyboard in Resources */,
+				D42B0110297929180050AB23 /* Assets.xcassets in Resources */,
+				D42B010B297929170050AB23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42B00FC297929170050AB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D424BC72297DB5C100F98599 /* Double.swift in Sources */,
+				D4ED30AF298EA8B0000F7BA4 /* Date.swift in Sources */,
+				D42B010E297929170050AB23 /* Skillbox_diplom.xcdatamodeld in Sources */,
+				D424BC70297BD69E00F98599 /* AddExpenceViewController.swift in Sources */,
+				D42B011F297A90EE0050AB23 /* AddingViewController.swift in Sources */,
+				D4ED30B1298EAB70000F7BA4 /* UIColor.swift in Sources */,
+				D42B011D297A84F50050AB23 /* DataBaseService.swift in Sources */,
+				D43168812982815B00F94B45 /* DoubleGraphViewController.swift in Sources */,
+				D4ED30B5298EAC08000F7BA4 /* UISegmentedControl.swift in Sources */,
+				D42B0108297929170050AB23 /* ViewController.swift in Sources */,
+				D4ED30AC298BD122000F7BA4 /* CategoryGraphViewController.swift in Sources */,
+				D42B0104297929170050AB23 /* AppDelegate.swift in Sources */,
+				D42B011B29795F7F0050AB23 /* HeadViewController.swift in Sources */,
+				D4F3E6C9297B33E800BE87CE /* ExpencesTableViewCell.swift in Sources */,
+				D42B0106297929170050AB23 /* SceneDelegate.swift in Sources */,
+				D4F3E6C5297B183F00BE87CE /* CategoryViewController.swift in Sources */,
+				D42B0121297AA08D0050AB23 /* CategoryTableViewCell.swift in Sources */,
+				D4ED30B3298EABA3000F7BA4 /* UIButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D42B0109297929170050AB23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42B010A297929170050AB23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D42B0111297929180050AB23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42B0112297929180050AB23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D42B0115297929180050AB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D42B0116297929180050AB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D42B0118297929180050AB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skillbox_diplom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "by.ap12.Skillbox-diplom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D42B0119297929180050AB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skillbox_diplom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "by.ap12.Skillbox-diplom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42B00FB297929170050AB23 /* Build configuration list for PBXProject "Skillbox_diplom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42B0115297929180050AB23 /* Debug */,
+				D42B0116297929180050AB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42B0117297929180050AB23 /* Build configuration list for PBXNativeTarget "Skillbox_diplom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42B0118297929180050AB23 /* Debug */,
+				D42B0119297929180050AB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D43168902982E62200F94B45 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D43168912982E62200F94B45 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D43168902982E62200F94B45 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D42B010C297929170050AB23 /* Skillbox_diplom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D42B010D297929170050AB23 /* Skillbox_diplom.xcdatamodel */,
+			);
+			currentVersion = D42B010D297929170050AB23 /* Skillbox_diplom.xcdatamodel */;
+			path = Skillbox_diplom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D42B00F8297929170050AB23 /* Project object */;
+}
