@@ -30,7 +30,9 @@ class AddExpenceViewController: UIViewController, UITextFieldDelegate {
                 newExpence.category = category
                 do {
                     try self.context.save()
-                } catch {}
+                } catch {
+                    print("Error expence saving")
+                }
             }
         }
         addUpdateExpences?()

@@ -25,7 +25,6 @@ class CategoryGraphViewController: UIViewController, AxisValueFormatter {
         createChart(for: .now.allPeriod)
         periodSegments.setUp()
         periodSegments.addTarget(self, action: #selector(changeGraph), for: .valueChanged)
-        graph.backgroundColor = .systemGray5
     }
     
     func createExpenceForChart() {
@@ -64,9 +63,9 @@ class CategoryGraphViewController: UIViewController, AxisValueFormatter {
     
     @objc func changeGraph(_ sender: UISegmentedControl){
         switch sender.selectedSegmentIndex {
-        case 0: createChart(for: .now.week)
-        case 1: createChart(for: .now.month)
-        case 2: createChart(for: .now.quarter)
+        case 0: createChart(for: .now.weekPeriod)
+        case 1: createChart(for: .now.monthPeriod)
+        case 2: createChart(for: .now.quarterPeriod)
         case 3: createChart(for: .now.allPeriod)
         default: break
         }

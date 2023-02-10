@@ -28,7 +28,9 @@ class AddingViewController: UIViewController, UITextFieldDelegate {
                 newCategory.categoryName = text
                 do {
                     try self.context.save()
-                } catch {}
+                } catch {
+                    print("Error new cateegory saving")
+                }
             }
             addUpdateCategories?()
             self.dismiss(animated: true)
@@ -40,7 +42,9 @@ class AddingViewController: UIViewController, UITextFieldDelegate {
                 newAmount.date = .now
                 do {
                     try self.context.save()
-                } catch {}
+                } catch {
+                    print("Error new amount saving")
+                }
             }
             addUpdateIncomes?()
             self.dismiss(animated: true)

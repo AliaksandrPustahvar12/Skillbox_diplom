@@ -11,7 +11,6 @@
 		D424BC72297DB5C100F98599 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424BC71297DB5C100F98599 /* Double.swift */; };
 		D42B0104297929170050AB23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B0103297929170050AB23 /* AppDelegate.swift */; };
 		D42B0106297929170050AB23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B0105297929170050AB23 /* SceneDelegate.swift */; };
-		D42B0108297929170050AB23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B0107297929170050AB23 /* ViewController.swift */; };
 		D42B010B297929170050AB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42B0109297929170050AB23 /* Main.storyboard */; };
 		D42B010E297929170050AB23 /* Skillbox_diplom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D42B010C297929170050AB23 /* Skillbox_diplom.xcdatamodeld */; };
 		D42B0110297929180050AB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42B010F297929180050AB23 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 		D42B0100297929170050AB23 /* Skillbox_diplom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skillbox_diplom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42B0103297929170050AB23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D42B0105297929170050AB23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D42B0107297929170050AB23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D42B010A297929170050AB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D42B010D297929170050AB23 /* Skillbox_diplom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skillbox_diplom.xcdatamodel; sourceTree = "<group>"; };
 		D42B010F297929180050AB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 			children = (
 				D42B0103297929170050AB23 /* AppDelegate.swift */,
 				D42B0105297929170050AB23 /* SceneDelegate.swift */,
-				D42B0107297929170050AB23 /* ViewController.swift */,
 				D42B0109297929170050AB23 /* Main.storyboard */,
 				D4ED30B9298EAE5A000F7BA4 /* MainView */,
 				D4ED30B7298EADBE000F7BA4 /* CategoryExpenceView */,
@@ -256,7 +253,6 @@
 				D42B011D297A84F50050AB23 /* DataBaseService.swift in Sources */,
 				D43168812982815B00F94B45 /* DoubleGraphViewController.swift in Sources */,
 				D4ED30B5298EAC08000F7BA4 /* UISegmentedControl.swift in Sources */,
-				D42B0108297929170050AB23 /* ViewController.swift in Sources */,
 				D4ED30AC298BD122000F7BA4 /* CategoryGraphViewController.swift in Sources */,
 				D42B0104297929170050AB23 /* AppDelegate.swift in Sources */,
 				D42B011B29795F7F0050AB23 /* HeadViewController.swift in Sources */,
@@ -411,6 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7B6YSJUL25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Skillbox_diplom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -423,7 +420,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "by.ap12.Skillbox-diplom";
+				PRODUCT_BUNDLE_IDENTIFIER = "by.ap12.Skillbox-diplomApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,6 +435,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7B6YSJUL25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Skillbox_diplom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "by.ap12.Skillbox-diplom";
+				PRODUCT_BUNDLE_IDENTIFIER = "by.ap12.Skillbox-diplomApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
